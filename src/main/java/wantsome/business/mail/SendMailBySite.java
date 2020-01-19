@@ -12,15 +12,9 @@ import java.util.Properties;
 public class SendMailBySite {
     private static final String host = "smtp.mail.yahoo.com";
     private static final String port = "587";
-    private static final String userName = "vlas.bogdan@yahoo.com";
-    private static final String password = "golqftpoepkuwfxn";
-    private static final String toAddress = "vlas.bogdan@yahoo.com";
-
-
-//    public static void main(String[] args) throws MessagingException {
-//        sendPlainTextEmail("smtp.mail.yahoo.com", "587", "vlas.bogdan@yahoo.com", "golqftpoepkuwfxn",
-//                "vlas.bogdan@yahoo.com", "another email from java", "hello again!");
-//    }
+    private static final String userName = "****@yahoo.com"; //email from
+    private static final String password = "******"; //password of email
+    private static final String toAddress = "****@yahoo.com"; //email to
 
     public static void sendPlainTextEmail(String subject, String message) throws AddressException,
             MessagingException {
